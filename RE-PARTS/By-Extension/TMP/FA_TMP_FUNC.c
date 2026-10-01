@@ -19,8 +19,7 @@ void __fastcall FA_TMP_FUNC(int param_1)
   memset(local_c,0,0x104);
   if (*(int *)(param_1 + 0xc) == 0) {
     wsprintfA(local_c,(LPCSTR)(param_1 + 0x10));
-  }
-  else {
+  } else {
     local_10 = strrchr((char *)(param_1 + 0x10),0x5c);
     if (local_10 != (char *)0x0) {
       local_10 = local_10 + 1;
